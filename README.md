@@ -74,7 +74,7 @@ def open_with_rv():
             subprocess.Popen(cmd, shell=True)
 ```
 
-### Set what Read nodes should when there are missing frames
+### Set what Read nodes should do when there are missing frames
 ```
 def set_missing_frames():
     selected_nodes = nuke.selectedNodes()
